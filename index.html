@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Computadoras</title>
+</head>
+<body>
+
+ 
+
+    <header>
+            <div>
+                <img id="logo" src="https://algarabia.com/wp-content/uploads/2021/06/Computadoras.jpg" alt="Logo">
+                <section class="main-section">
+                    <H1 class="main-title">Bienvenido a CompraCompu</H1>
+               </section>
+            </div>
+
+    </header>
+
+   <table>
+       <h4>Todas las computadoras tienen valor de 820000</h5>
+       <tr>
+           <td >
+               <h4>IdeaCentre 3i AIO (27", Intel)</h4>
+               <img class="image" 
+               src="https://www.lenovo.com/medias/lenovo-monitor-ideacentre-aio-3-27-intel-subseries-hero.png?context=bWFzdGVyfHJvb3R8NzQzNTJ8aW1hZ2UvcG5nfGgzYi9oMDUvMTA4NTk4ODc1MjU5MTgucG5nfDYzNWEwYWVkZTFiYjc5NWU5YWM5NDBiNDZmOGZjY2ZlMDM0NmM0ZGU3MTZjYTQ4MzFlZDNhMjIzMGE5YTUwYmI" 
+               alt="">
+            </td>
+           <td >
+               <h4> Pc Hp Prodesk 400 G7 Core I7 Ram 8gb Disco 1tb W10 21.5 Pulg</h4>
+               <img class="image" 
+               src="https://i.linio.com/p/c3d2728b6a7c9fc431d5f396bd54748f-product.webp" 
+               alt=""></td>
+           <td >
+               <h4>Pc De Mesa Core I7 1tb 16 Gb Ddr4 Monitor Samsung 22 Raedon</h4>
+                <img class="image" 
+                src="https://http2.mlstatic.com/D_NQ_NP_2X_734939-MCO31540132562_072019-F.webp" 
+                alt="">
+            </td>
+        </tr>
+        <tr>
+            <td >
+                <h4>TODO EN UNO HP 21-B0003LA INTEL CELERON J4025 4GB DDR4 1T FREE DOS</h4>  
+                <img class="image" 
+                src="https://i.linio.com/p/39c9c1fb2bde40f4175860e6683e74d1-product.webp" 
+                alt="">
+            </td>
+            <td >
+                <h4>Todo en Uno HP 22-dd0522la</h4>
+                <img class="image" 
+                src="https://d34vmoxq6ylzee.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/4/U/4U584LA-1_T1645456427.png " 
+                alt="">
+            </td>
+            <td>
+                <h4>IdeaCentre AIO 5i 6ta Gen (23.8", Intel)
+                </h4>
+                <img class="image" 
+                src="https://www.lenovo.com/medias/lenovo-desktop-ideacentre-aio-5i-gen-6-24-intel-subseries-hero.png?context=bWFzdGVyfHJvb3R8Mjk1NDAyfGltYWdlL3BuZ3xoZmUvaGMzLzExNzM3MDA4MzQxMDIyLnBuZ3xlNDE2OTY2OWI1OTkwZmYwYWRmY2VhNjE4NWVlZTRiY2I0YTJhZDhiYjNlZDc1ZTdkZWU5N2E0MmUxZDI2Mjlh" 
+                alt="">
+            </td>
+         </tr>
+    </table>
+
+    <form>
+
+       
+        <fieldset>
+            <div><select class="tipos" id="tipo">Tipo de computadora</select></div>
+
+            <label >Cantidad de computadoras</label>
+            <input type="number" id="cantidad"/><br>
+
+            <button id="boton" onclick="calcularOrdenDeCompra()" type="button">Calcular</button>
+
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <h2>Orden de compra</h2>
+
+    
+            <label >Valor de compra</label>
+            <input id="vCompra" type="number"/><br>
+    
+            <label >Valor de descuento</label>
+            <input id="vDescuento"  type="number"/><br>
+
+            <label >Valor total con descuento</label>
+            <input id="vTotal"  type="number"/><br>
+
+            <label id="descuento"></label>
+    
+        </fieldset>
+    </form>
+
+
+
+    <footer class="footer">
+        <h3 class="footer-title">Todos los derechos reservados - Hecho por Daniela Uribe</h3>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
